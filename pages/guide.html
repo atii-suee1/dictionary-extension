@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng Dẫn Sử Dụng</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 28px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #764ba2;
+            font-size: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .section h2::before {
+            content: attr(data-icon);
+            margin-right: 10px;
+            font-size: 24px;
+        }
+        .step {
+            background: #f9f9f9;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+        }
+        .step strong {
+            color: #667eea;
+        }
+        .tip {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 4px;
+        }
+        .video-placeholder {
+            background: #f0f0f0;
+            padding: 40px;
+            text-align: center;
+            border-radius: 8px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Hướng Dẫn Chi Tiết Sử Dụng Extension</h1>
+
+        <div class="section">
+            <h2 data-icon="⚙️">Bước 1: Cài Đặt Extension Lên Microsoft Edge</h2>
+            <div class="step">
+                <strong>Bước 1:</strong> Mở Microsoft Edge (trình duyệt)
+            </div>
+            <div class="step">
+                <strong>Bước 2:</strong> Nhấn vào biểu tượng "≡" (ba gạch ngang) ở góc trên phải
+            </div>
+            <div class="step">
+                <strong>Bước 3:</strong> Chọn "Tiện ích" → "Quản lý tiện ích"
+            </div>
+            <div class="step">
+                <strong>Bước 4:</strong> Bật "Chế độ nhà phát triển" (góc dưới trái)
+            </div>
+            <div class="step">
+                <strong>Bước 5:</strong> Nhấn "Tải tiện ích chưa được đóng gói"
+            </div>
+            <div class="step">
+                <strong>Bước 6:</strong> Chọn thư mục "dictionary-extension"
+            </div>
+            <div class="step">
+                <strong>Bước 7:</strong> ✅ Xong! Icon 📚 sẽ xuất hiện trên thanh công cụ
+            </div>
+            <div class="tip">
+                💡 <strong>Mẹo:</strong> Nếu bạn không thấy icon, hãy nhấn vào puzzel ở góc trên phải và ghim extension
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 data-icon="🔍">Bước 2: Tra Từ Điển Nhanh</h2>
+            <div class="step">
+                <strong>Cách 1 - Sử dụng Menu:</strong>
+                <ol style="margin-top: 10px; margin-left: 20px;">
+                    <li>Bôi đen từ tiếng Anh bất kỳ trên trang web</li>
+                    <li>Nhấp chuột phải (right-click)</li>
+                    <li>Chọn "🔍 Tra từ điển"</li>
+                    <li>Xem kết quả ngay lập tức!</li>
+                </ol>
+            </div>
+            <div class="step">
+                <strong>Cách 2 - Sử dụng Popup:</strong>
+                <ol style="margin-top: 10px; margin-left: 20px;">
+                    <li>Nhấp vào icon 📚 trên thanh công cụ</li>
+                    <li>Nhập từ cần tìm trong ô "Nhập từ tiếng Anh..."</li>
+                    <li>Nhấn nút "🔍 Tra"</li>
+                    <li>Xem toàn bộ ý nghĩa, ví dụ, và phiên âm</li>
+                </ol>
+            </div>
+            <div class="step">
+                <strong>Cách 3 - Phím tắt (nhanh nhất):</strong>
+                <ol style="margin-top: 10px; margin-left: 20px;">
+                    <li>Bôi đen từ cần tìm</li>
+                    <li>Ấn Ctrl+Shift+D (Windows) hoặc Cmd+Shift+D (Mac)</li>
+                    <li>Pop-up hiện ngay!</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 data-icon="⭐">Bước 3: Lưu Từ Để Học</h2>
+            <div class="step">
+                <strong>Cách lưu từ:</strong>
+                <ol style="margin-top: 10px; margin-left: 20px;">
+                    <li>Tra từ xong, bạn sẽ thấy nút "⭐ Lưu"</li>
+                    <li>Nhấn vào nút đó</li>
+                    <li>Từ được lưu vào danh sách học</li>
+                    <li>Thông báo "✅ Đã lưu từ..." xuất hiện</li>
+                </ol>
+            </div>
+            <div class="tip">
+                💡 <strong>Mẹo:</strong> Bạn có thể lưu tối đa bao nhiêu từ tùy thích! Tất cả đều được lưu trên máy bạn, an toàn và không mất dữ liệu.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 data-icon="📇">Bước 4: Ôn Luyện Với Flashcard</h2>
+            <div class="step">
+                <strong>Bước 1:</strong> Nhấp icon 📚 → chọn tab "📇 Flashcard"
+            </div>
+            <div class="step">
+                <strong>Bước 2:</strong> Bạn sẽ thấy thẻ học với từ tiếng Anh phía trước
+            </div>
+            <div class="step">
+                <strong>Bước 3:</strong> Nhấp vào thẻ để lật ngược → xem ý nghĩa
+            </div>
+            <div class="step">
+                <strong>Bước 4:</strong> Nhấn "⬅️ Trước" hoặc "Sau ➡️" để chuyển sang từ khác
+            </div>
+            <div class="step">
+                <strong>Bước 5:</strong> Nhấn "✅ Đã học" để đánh dấu đã học
+            </div>
+            <div class="tip">
+                💡 <strong>Lợi ích:</strong> Phương pháp flashcard giúp bạn nhớ từ lâu hơn! Nghiên cứu khoa học chứng minh hiệu quả cao gấp 3 lần so với xem lại.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 data-icon="💾">Bước 5: Xuất & Nhập Danh Sách Từ</h2>
+            <div class="step">
+                <strong>Xuất danh sách sang Excel:</strong>
+                <ol style="margin-top: 10px; margin-left: 20px;">
+                    <li>Nhấp icon 📚 → tab "⭐ Từ đã lưu"</li>
+                    <li>Nhấn "💾 Xuất Excel"</li>
+                    <li>File sẽ tự động tải về máy bạn</li>
+                    <li>Bạn có thể mở với Excel, Google Sheets, hoặc bất kỳ ứng dụng nào</li>
+                </ol>
+            </div>
+            <div class="step">
+                <strong>Nhập từ từ file:</strong>
+                <ol style="margin-top: 10px; margin-left: 20px;">
+                    <li>Nhấn "📤 Nhập từ file"</li>
+                    <li>Chọn file JSON đã chuẩn bị sẵn (hoặc file từ Excel)</li>
+                    <li>Từ sẽ được thêm vào danh sách học</li>
+                </ol>
+            </div>
+            <div class="tip">
+                💡 <strong>Cách dùng file:</strong> Bạn có thể chia sẻ danh sách từ với bạn bè bằng cách nhấp "💾 Xuất Excel" rồi gửi file cho họ. Họ chỉ cần nhấp "📤 Nhập từ file" để thêm tất cả từ!
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 data-icon="🇰🇷">Bước 6: Sử Dụng Từ Tiếng Hàn (Bonus)</h2>
+            <div class="step">
+                <strong>Tra từ tiếng Hàn:</strong>
+                <ol style="margin-top: 10px; margin-left: 20px;">
+                    <li>Bôi đen từ Tiếng Hàn (Hangul) trên trang web</li>
+                    <li>Nhấp chuột phải → "🔍 Tra từ điển"</li>
+                    <li>Xem ý nghĩa tiếng Việt + phiên âm</li>
+                </ol>
+            </div>
+            <div class="tip">
+                💡 <strong>Hangul là gì?</strong> Đó là chữ cái Tiếng Hàn, trông giống như: 안녕하세요 (xin chào)
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 data-icon="❓">Câu Hỏi Thường Gặp (FAQ)</h2>
+            <div class="step">
+                <strong>Q: Extension không hoạt động?</strong>
+                <br>A: Hãy thử:
+                <ul style="margin-top: 10px; margin-left: 20px;">
+                    <li>Tải lại trang web (Ctrl+R hoặc F5)</li>
+                    <li>Tắt và bật lại extension</li>
+                    <li>Khởi động lại trình duyệt Edge</li>
+                </ul>
+            </div>
+            <div class="step">
+                <strong>Q: Dữ liệu của tôi có an toàn không?</strong>
+                <br>A: Có! Tất cả dữ liệu (từ đã lưu, flashcard, v.v.) được lưu trên máy bạn. Microsoft Edge không gửi dữ liệu đến máy chủ ngoài. Chỉ bạn mới có quyền truy cập!
+            </div>
+            <div class="step">
+                <strong>Q: Tôi có thể xóa tất cả từ đã lưu không?</strong>
+                <br>A: Có! Vào tab "⭐ Từ đã lưu" → Nhấn "🗑️ Xóa tất cả" → Xác nhận. Toàn bộ danh sách sẽ bị xóa (không thể khôi phục).
+            </div>
+            <div class="step">
+                <strong>Q: Có thể sử dụng trên điện thoại không?</strong>
+                <br>A: Microsoft Edge dành cho máy tính (Windows, Mac). Trên điện thoại, bạn có thể dùng app Từ Điển hoặc trình duyệt với tính năng tương tự.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 data-icon="📞">Liên Hệ & Hỗ Trợ</h2>
+            <div class="step">
+                Nếu bạn gặp vấn đề hoặc có đề xuất:
+                <ul style="margin-top: 10px; margin-left: 20px;">
+                    <li>📧 Email: your-email@example.com</li>
+                    <li>🐛 Báo cáo lỗi: <a href="https://github.com/atii-suee1/dictionary-extension/issues" target="_blank">GitHub Issues</a></li>
+                    <li>💬 Facebook: Inbox page</li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #666; font-size: 14px;">
+            <p>✨ Cảm ơn bạn đã sử dụng Dictionary Extension! ✨</p>
+            <p>Phiên bản 1.0.0 | Cập nhật: 2026-05-26</p>
+        </div>
+    </div>
+</body>
+</html>
