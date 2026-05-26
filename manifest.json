@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "📚 Tra Từ Điển Anh-Việt-Hàn",
+  "version": "1.0.0",
+  "description": "Highlight từ trên web → xem nghĩa, flashcard, export/import danh sách từ",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "permissions": [
+    "storage",
+    "scripting",
+    "activeTab",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "📚 Tra Từ Điển - Ấn Ctrl+Shift+D để tra nhanh"
+  },
+  "options_page": "pages/options.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles/content.css"],
+      "run_at": "document_end"
+    }
+  ]
+}

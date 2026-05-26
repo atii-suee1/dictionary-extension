@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tra Từ Điển</title>
+    <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+    <div class="popup-container">
+        <!-- Header -->
+        <div class="popup-header">
+            <h1>📚 Tra Từ Điển</h1>
+            <div class="header-buttons">
+                <button id="settingsBtn" class="icon-btn" title="Cài đặt">
+                    ⚙️
+                </button>
+                <button id="guideBtn" class="icon-btn" title="Hướng dẫn">
+                    ❓
+                </button>
+            </div>
+        </div>
+
+        <!-- Tab Navigation -->
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="search">🔍 Tra từ</button>
+            <button class="tab-btn" data-tab="flashcard">📇 Flashcard</button>
+            <button class="tab-btn" data-tab="saved">⭐ Từ đã lưu</button>
+        </div>
+
+        <!-- Tab 1: Search -->
+        <div id="search" class="tab-content active">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Nhập từ tiếng Anh hoặc Hàn..."
+                       aria-label="Nhập từ để tra">
+                <button id="searchBtn" class="search-button">🔍 Tra</button>
+            </div>
+
+            <div id="result" class="result-area">
+                <p class="placeholder">Nhập từ để tra nghĩa</p>
+            </div>
+        </div>
+
+        <!-- Tab 2: Flashcard -->
+        <div id="flashcard" class="tab-content">
+            <div id="flashcardContainer" class="flashcard-empty">
+                <p>📭 Không có từ nào</p>
+                <p class="small-text">Lưu từ bằng ⭐ để bắt đầu học</p>
+            </div>
+            <div id="flashcardContent" style="display: none;">
+                <div class="flashcard-card" id="flashcardCard">
+                    <div class="card-front">
+                        <p class="card-label">Nhấp để xem</p>
+                        <p class="card-word">hello</p>
+                    </div>
+                    <div class="card-back" style="display: none;">
+                        <p class="card-label">Nghĩa</p>
+                        <p class="card-meaning">Xin chào</p>
+                        <p class="card-korean">안녕하세요</p>
+                    </div>
+                </div>
+                <div class="flashcard-controls">
+                    <button id="prevCard" class="flashcard-btn">⬅️ Trước</button>
+                    <button id="markLearned" class="flashcard-btn">✅ Đã học</button>
+                    <button id="nextCard" class="flashcard-btn">Sau ➡️</button>
+                </div>
+                <p class="card-progress" id="cardProgress">1/10</p>
+            </div>
+        </div>
+
+        <!-- Tab 3: Saved Words -->
+        <div id="saved" class="tab-content">
+            <div class="saved-controls">
+                <button id="exportBtn" class="control-btn">📥 Xuất Excel</button>
+                <button id="importBtn" class="control-btn">📤 Nhập từ file</button>
+                <button id="clearBtn" class="control-btn danger">🗑️ Xóa tất cả</button>
+                <input type="file" id="importFile" accept=".json,.csv,.xlsx" style="display: none;">
+            </div>
+            <div id="savedList" class="saved-list">
+                <p class="placeholder">Chưa có từ đã lưu</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="utils/storage.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
