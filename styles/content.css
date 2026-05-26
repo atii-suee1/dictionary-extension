@@ -1,0 +1,13 @@
+/* Content Script CSS */
+
+.dictionary-highlight {
+    background-color: #FFD700;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 0 2px;
+}
+
+.dictionary-highlight:hover {
+    background-color: #FFC700;
+    text-decoration: underline;
+}
