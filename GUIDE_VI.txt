@@ -1,0 +1,364 @@
+📚 **HƯỚNG DẪN CÀI ĐẶT & SỬ DỤNG EDGE EXTENSION - CHI TIẾT CHO NGƯỜI MỚI**
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**PHẦN 1: CÀI ĐẶT EXTENSION TRÊN MICROSOFT EDGE**
+
+**❌ Nếu bạn chưa có Edge:**
+1. Vào Google → Tìm "Microsoft Edge download"
+2. Nhấp vào kết quả đầu tiên
+3. Chọn nút "Tải về" (xanh lá)
+4. Mở file vừa tải → Cài đặt
+
+**✅ Nếu bạn đã có Edge:**
+
+BƯỚC 1: Mở Microsoft Edge
+├─ Bạn sẽ thấy giao diện giống hình:
+│  
+│  [≡]  [_]  [□]  [X]  ← Góc trên phải
+│  Edge là trình duyệt màu xanh, logo hình sóng nước
+
+BƯỚC 2: Nhấn vào biểu tượng "≡" (ba gạch ngang)
+├─ Nó ở góc trên phải, trên cùng một hàng với [_] [□] [X]
+├─ Một menu sẽ xuất hiện
+
+BƯỚC 3: Tìm chữ "Tiện ích" trong menu
+├─ Nó nằm ở giữa menu
+├─ Nhấp vào "Tiện ích"
+
+BƯỚC 4: Chọn "Quản lý tiện ích"
+├─ Một tab mới sẽ mở ra
+├─ Tab này dùng để quản lý các extension
+
+BƯỚC 5: Bật "Chế độ nhà phát triển"
+├─ Tìm nút toggle ở dưới bên trái màn hình
+├─ Nó trông như: [○──] (gạt tắt) hoặc [──●] (bật)
+├─ Nhấp để chuyển từ OFF thành ON (nút sẽ xanh)
+
+BƯỚC 6: Nhấn "Tải tiện ích chưa được đóng gói"
+├─ Nút xanh sẽ xuất hiện
+├─ Một cửa sổ "chọn thư mục" sẽ mở ra
+
+BƯỚC 7: Chọn thư mục "dictionary-extension"
+├─ Bạn cần chọn thư mục chứa extension
+├─ Nó là thư mục bạn tải từ GitHub
+├─ Bấm "Chọn thư mục" hoặc "OK"
+
+**✅ CÀI ĐẶT XONG!**
+├─ Icon 📚 sẽ xuất hiện trên thanh công cụ
+├─ Nếu không thấy, nhấp vào puzzel ỏ góc trên phải
+└─ Ghim (pin) extension để nó luôn hiển thị
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**PHẦN 2: SỬ DỤNG EXTENSION - 3 CÁCH TRA TỪ**
+
+**📌 CÁCH 1: Sử dụng Menu Chuột Phải (Dễ nhất)**
+
+Ví dụ: Bạn đang đọc một bài báo tiếng Anh, thấy từ "Hello"
+
+BƯỚC 1: Chọn từ
+├─ Dùng chuột, bôi đen từ "Hello"
+├─ Từ sẽ có màu xanh/vàng (tùy độ bôi)
+
+BƯỚC 2: Nhấp chuột phải (right-click)
+├─ Trên từ "Hello" vừa bôi
+├─ Một menu nhỏ sẽ hiện lên
+
+BƯỚC 3: Tìm "🔍 Tra từ điển" trong menu
+├─ Nó sẽ ở trên cùng menu
+├─ Nhấp vào dòng đó
+
+**✅ XONG!** Popup sẽ mở ra với ý nghĩa!
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**📌 CÁCH 2: Sử dụng Popup (Tra tự do)**
+
+BƯỚC 1: Nhấp icon 📚 trên thanh công cụ
+├─ Nó ở góc trên phải, cạnh biểu tượng thanh tìm kiếm
+├─ Popup sẽ mở ra
+
+BƯỚC 2: Nhập từ cần tìm
+├─ Trong ô "Nhập từ tiếng Anh hoặc Hàn..."
+├─ Ví dụ: hello, world, love, study
+
+BƯỚC 3: Nhấn nút "🔍 Tra" hoặc ấn Enter
+├─ Kết quả sẽ hiện ngay
+
+**KẾT QUẢ HIỂN THỊ:**
+├─ Từ tiếng Anh: HELLO
+├─ Phiên âm: /həˈloʊ/
+├─ Ý nghĩa Việt: xin chào, chào hỏi
+├─ Ý nghĩa Hàn: 안녕, 인사하다
+├─ Ví dụ: "Hello, how are you?"
+└─ Nút ⭐ Lưu (để lưu từ vào danh sách học)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**📌 CÁCH 3: Phím Tắt Nhanh Nhất**
+
+BƯỚC 1: Bôi đen từ cần tìm
+├─ Ví dụ: bôi đen "friend"
+
+BƯỚC 2: Ấn Ctrl+Shift+D (Windows) hoặc Cmd+Shift+D (Mac)
+├─ Popup sẽ tự động mở
+├─ Kết quả hiển thị ngay
+
+**💡 MẸO:** Đây là cách nhanh nhất! Không cần nhấp chuột phải!
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**PHẦN 3: LƯU TỪ ĐỀ HỌC (⭐ QUAN TRỌNG)**
+
+**TẠI SAO PHẢI LƯU TỪ?**
+└─ Để có danh sách riêng để ôn luyện với flashcard
+└─ Để export ra file Excel chia sẻ cho bạn bè
+└─ Để theo dõi tiến độ học tập
+
+**CÁCH LƯU:**
+
+BƯỚC 1: Tra từ (theo 1 trong 3 cách ở trên)
+BƯỚC 2: Xem kết quả, tìm nút ⭐ Lưu
+├─ Nó ở bên phải tiêu đề từ
+├─ Màu vàng
+
+BƯỚC 3: Nhấp vào ⭐ Lưu
+├─ Thông báo "✅ Đã lưu từ hello" sẽ xuất hiện
+├─ Từ được thêm vào danh sách
+
+BƯỚC 4: Lặp lại với các từ khác
+├─ Bạn có thể lưu bao nhiêu từ tùy thích
+├─ Không có giới hạn
+
+**✅ XONG! Từ sẽ ở trong tab "⭐ Từ đã lưu"**
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**PHẦN 4: ÔN LUYỆN VỚI FLASHCARD (📇)**
+
+**FLASHCARD LÀ GÌ?**
+└─ Là những tấm thẻ học có từ phía trước
+└─ Khi lật ngược, sẽ thấy ý nghĩa
+└─ Giúp bạn nhớ từ lâu hơn
+
+**CÁCH DÙNG:**
+
+BƯỚC 1: Nhấp icon 📚 trên thanh công cụ
+BƯỚC 2: Chọn tab "📇 Flashcard" (tab thứ 2)
+
+BƯỚC 3: Thấy thẻ học
+├─ Phía trước là từ tiếng Anh
+├─ Ví dụ: LOVE
+
+BƯỚC 4: Nhấp vào thẻ để lật ngược
+├─ Phía sau sẽ hiện ý nghĩa
+├─ Tiếng Việt: yêu, tình yêu
+├─ Tiếng Hàn: 사랑
+
+BƯỚC 5: Nhấn "⬅️ Trước" hoặc "Sau ➡️"
+├─ Để chuyển sang từ khác
+├─ Xem tiếng độ học (1/10)
+
+BƯỚC 6: Nhấn "✅ Đã học"
+├─ Khi bạn chắc chắn đã nhớ từ này
+├─ Nó sẽ tự động chuyển sang từ tiếp theo
+
+**💡 MẸO HỌC HIỆU QUẢ:**
+├─ Mỗi ngày học 10-20 từ
+├─ Dùng flashcard 2-3 lần
+├─ Sau 3 ngày, từ đó sẽ nhớ rất lâu!
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**PHẦN 5: XUẤT & NHẬP DANH SÁCH TỪ (💾)**
+
+**TẠI SAO XUẤT/NHẬP?**
+├─ Xuất: Để lưu bản sao, chia sẻ cho bạn bè
+├─ Nhập: Để thêm danh sách từ của người khác
+
+**XUẤT DANH SÁCH RA EXCEL:**
+
+BƯỚC 1: Nhấp icon 📚
+BƯỚC 2: Chọn tab "⭐ Từ đã lưu" (tab thứ 3)
+BƯỚC 3: Nhấn nút "💾 Xuất Excel"
+├─ File sẽ tải về máy bạn
+├─ Tên file: tu-dien-2026-05-26.json
+
+BƯỚC 4: Mở file với Excel hoặc Google Sheets
+├─ Bạn sẽ thấy bảng:
+│  │ Word   │ Vietnamese     │ Korean    │
+│  ├────────┼────────────────┼───────────┤
+│  │ hello  │ xin chào       │ 안녕      │
+│  │ love   │ yêu, tình yêu  │ 사랑     │
+
+BƯỚC 5: Chia sẻ file cho bạn bè
+└─ Gửi file qua email, Facebook, v.v.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**NHẬP TỪ TỪ FILE:**
+
+BƯỚC 1: Nhấp icon 📚 → tab "⭐ Từ đã lưu"
+BƯỚC 2: Nhấn nút "📤 Nhập từ file"
+├─ Cửa sổ chọn file sẽ mở
+BƯỚC 3: Chọn file JSON (file danh sách từ)
+BƯỚC 4: Nhấn "Mở"
+├─ Thông báo "✅ Đã nhập từ thành công"
+└─ Tất cả từ trong file sẽ thêm vào
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**PHẦN 6: HỎI & ĐÁP (FAQ)**
+
+**❓ CÂU HỎI 1: Extension không hoạt động?**
+
+GIẢI PHÁP:
+1. Tải lại trang web: Nhấn F5 hoặc Ctrl+R
+2. Tắt/bật lại extension: 
+   ├─ Nhấp ≡ → Tiện ích → Quản lý tiện ích
+   ├─ Tìm Dictionary Extension
+   ├─ Gạt off rồi bật lại
+3. Khởi động lại Edge: Đóng rồi mở lại
+4. Nếu vẫn không được, xóa rồi cài lại
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**❓ CÂU HỎI 2: Dữ liệu có mất không?**
+
+TRẢ LỜI:
+├─ KHÔNG! Tất cả từ lưu trên máy bạn
+├─ Microsoft không gửi dữ liệu đi đâu
+├─ Chỉ bạn mới truy cập được
+├─ Dữ liệu sẽ giữ ngay cả khi tắt Edge
+
+**💡 AN TOÀN & RIÊNG TƯ: ✅ 100%**
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**❓ CÂU HỎI 3: Quên mất mật khẩu/tài khoản?**
+
+TRẢ LỜI:
+├─ Extension KHÔNG cần mật khẩu
+├─ Không cần đăng nhập tài khoản
+├─ Nó hoạt động hoàn toàn độc lập
+└─ Dữ liệu lưu cục bộ trên máy
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**❓ CÂU HỎI 4: Có thể dùng trên điện thoại không?**
+
+TRẢ LỜI:
+├─ Edge dành cho máy tính (Windows/Mac)
+├─ Điện thoại có thể dùng ứng dụng riêng
+├─ Hoặc dùng trình duyệt trên điện thoại
+└─ Nhưng extension này thiết kế cho máy tính
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**❓ CÂU HỎI 5: Tôi muốn xóa tất cả từ đã lưu?**
+
+CÁCH LÀM:
+1. Nhấp icon 📚 → tab "⭐ Từ đã lưu"
+2. Nhấn nút "🗑️ Xóa tất cả" (màu đỏ)
+3. Hệ thống hỏi "Bạn chắc chắn?"
+4. Nhấn "OK" để xác nhận
+5. ✅ Toàn bộ danh sách bị xóa (KHÔNG THỂ KHÔI PHỤC!)
+
+**⚠️ CẢNH BÁO: Hành động này KHÔNG thể hoàn tác!**
+├─ Nếu muốn giữ, hãy xuất sang Excel trước
+└─ Rồi mới xóa
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**PHẦN 7: TIẾNG HÀN (BONUS) - 🇰🇷**
+
+**HANGUL LÀ GÌ?**
+└─ Đó là chữ cái tiếng Hàn
+└─ Ví dụ: 안녕 (xin chào), 사랑 (yêu), 학교 (trường học)
+
+**CÁCH TRA TỪ TIẾNG HÀN:**
+
+Giống như tra tiếng Anh:
+
+1. Bôi đen từ Hàn (ví dụ: 안녕)
+2. Nhấp chuột phải
+3. Chọn "🔍 Tra từ điển"
+4. Xem ý nghĩa tiếng Việt
+
+**✅ XONG!**
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**PHẦN 8: MẸO VÀ THỦ THUẬT**
+
+**💡 MẸO 1: Dùng Phím Tắt Nhanh**
+└─ Ctrl+Shift+D để mở popup tra từ
+└─ Nhanh hơn nhấp chuột 2-3 lần
+
+**💡 MẸO 2: Lưu Từ Mỗi Ngày**
+├─ Lưu 10-20 từ/ngày
+├─ Ôn luyện với flashcard trước khi ngủ
+└─ Sau 1 tháng, bạn sẽ nhớ 300 từ!
+
+**💡 MẸO 3: Chia Sẻ Danh Sách Từ**
+├─ Xuất sang Excel
+├─ Chia sẻ cho bạn bè
+├─ Cùng nhau học tiếng Anh
+
+**💡 MẸO 4: Đọc Bài Báo + Tra Từ**
+├─ Đọc bài báo tiếng Anh trên web
+├─ Gặp từ lạ → Bôi đen → Nhấp phải → Tra
+├─ Tra xong → Lưu → Sau ôn luyện với flashcard
+└─ Cách học này rất hiệu quả!
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**PHẦN 9: LIÊN HỆ & HỖ TRỢ**
+
+Nếu bạn gặp vấn đề hoặc có ý kiến:
+
+📧 EMAIL: your-email@example.com
+├─ Gửi email với câu hỏi
+└─ Tôi sẽ trả lời trong 24 giờ
+
+🐛 BÁO CÁO LỖI: GitHub Issues
+├─ Link: https://github.com/atii-suee1/dictionary-extension/issues
+├─ Nhấp "New Issue"
+└─ Mô tả lỗi gặp phải
+
+💬 FACEBOOK: Inbox page
+├─ Tìm page trên Facebook
+└─ Inbox để được hỗ trợ
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**PHẦN 10: TÓM TẮT NHANH**
+
+┌─────────────────────────────────────────────────────────────┐
+│ ✨ DICTIONARY EXTENSION - TÓM TẮT TỪNG BƯỚC ✨            │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│ 1️⃣ CÀI ĐẶT: ≡ → Tiện ích → Quản lý → Chế độ phát triển  │
+│                 → Tải tiện ích chưa được đóng gói          │
+│                                                             │
+│ 2️⃣ TRA TỪ: Bôi từ → Nhấp phải → Tra từ điển              │
+│             HOẶC Nhấp 📚 → Nhập từ → Tra                  │
+│             HOẶC Bôi từ → Ctrl+Shift+D                    │
+│                                                             │
+│ 3️⃣ LƯU TỪ: Tra xong → Nhấp ⭐ Lưu                        │
+│                                                             │
+│ 4️⃣ HỌC: Nhấp 📚 → Tab "📇 Flashcard" → Lật thẻ học      │
+│                                                             │
+│ 5️⃣ XUẤT: Tab "⭐ Từ đã lưu" → "💾 Xuất Excel"           │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**CẢM ƠN BẠN ĐÃ SỬ DỤNG DICTIONARY EXTENSION!**
+
+Chúc bạn học tiếng Anh vui vẻ! 🎉
+
+Phiên bản: 1.0.0
+Cập nhật: 2026-05-26
